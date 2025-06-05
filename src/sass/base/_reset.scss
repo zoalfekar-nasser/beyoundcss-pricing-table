@@ -7,8 +7,12 @@
   list-style: none;
 }
 
-:where(h1, h2, h3, h4, p, body) {
+:where(h1, h2, h3, h4, p, body, ul[class]) {
   margin: 0;
+}
+
+:where(button) {
+  border: none;
 }
 
 :where(input, button) {

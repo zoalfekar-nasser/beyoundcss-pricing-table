@@ -2,17 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Beyond CSS | Pricing Table Project</title>
     <link rel="stylesheet" href="./sass/style.scss" />
-    <title>Vite App</title>
   </head>
   <body>
-    <h1>New Template</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ex dolore
-      iure tenetur velit? Tempora quae corporis at sit blanditiis eius dolor
-      culpa harum voluptatem.
-    </p>
+    <main>
+      <h1 class="fs-800">Hosting Plans</h1>
+      <div class="plans main-grid">
+        <div class="plan text-center">
+          <h2 class="plan__heading">Free</h2>
+          <ul class="plan__features">
+            <li class="plan__feature">1 domain</li>
+            <li class="plan__feature">5GB of bandwidth</li>
+            <li class="plan__feature">1GB disk space</li>
+            <li class="plan__feature">5,000 monthly-uniques</li>
+          </ul>
+          <p class="plan__price fs-600"><strong class="fs-800">$0</strong>/mo</p>
+          <button class="plan__submit">Get Started</button>
+        </div>
+        <div class="plan plan--tiny | text-center">
+          <h2 class="plan__heading">Tiny</h2>
+          <ul class="plan__features">
+            <li class="plan__feature">5 domain</li>
+            <li class="plan__feature">250GB of bandwidth</li>
+            <li class="plan__feature">5GB disk space</li>
+            <li class="plan__feature">15,000 monthly-uniques</li>
+          </ul>
+          <p class="plan__price fs-600"><strong class="fs-800">$19</strong>/mo</p>
+          <button class="plan__submit">Get Started</button>
+        </div>
+        <div class="plan text-center">
+          <h2 class="plan__heading">Large</h2>
+          <ul class="plan__features">
+            <li class="plan__feature">15 domain</li>
+            <li class="plan__feature">750GB of bandwidth</li>
+            <li class="plan__feature">20GB disk space</li>
+            <li class="plan__feature">
+              50,000 monthly-uniques with all the nice things in the fucking
+              world
+            </li>
+          </ul>
+          <p class="plan__price fs-600"><strong class="fs-800">$49</strong>/mo</p>
+          <button class="plan__submit">Get Started</button>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
