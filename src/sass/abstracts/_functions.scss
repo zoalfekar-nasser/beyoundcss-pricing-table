@@ -2,7 +2,6 @@
 @use "sass:meta";
 @use "sass:math";
 @use "breakpoints" as *;
-@use "colors" as *;
 @use "typography" as *;
 
 @function validate-breakpoint($breakpoint) {
