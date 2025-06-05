@@ -3,11 +3,10 @@ $font-sizes: (
   "500": 1.3125rem,
   "600": 1.5rem,
   "700": 3rem,
-  "800": 3.75rem,
+  "800": clamp(2rem, 10vw + 0.5rem, 3.75rem),
 );
 
 $ff-primary: "Ancizar Sans", sans-serif;
 
 $fw-400: 400;
 $fw-700: 700;
-
